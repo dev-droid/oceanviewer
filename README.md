@@ -19,6 +19,12 @@ OceanViewer is an **edge-first** autonomous marine life monitoring system design
 - **🔒 Conservative Decision Mechanism**: Prioritizes system stability when uncertainty exceeds threshold
 - **🚨 Local Real-time Alerts**: High-risk events trigger onboard alerts with 10-second cooldown to prevent flooding
 
+### Architecture Comparison
+
+![Edge-First Architecture](assets/edge_first_architecture.png)
+
+**Marine Scenario: Edge-First is More Reliable** - This system adopts an edge-first architecture where all inference is completed locally on the vessel, without relying on cloud services, ensuring stable operation in offline environments.
+
 ---
 
 ## System Architecture
